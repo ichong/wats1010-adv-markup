@@ -1,1 +1,39 @@
 /* Styles for the Advanced Markup assignment. */
+nav ul li {
+  display: inline;
+}
+a.active {
+  font-weight: bold;
+}
+#sidebar {
+  width: 250px;
+  float: right;
+  background: lightgoldenrodyellow;
+  margin: 10px;
+  padding: 10px;
+}
+
+.poem li {
+  list-style-type: none;
+  line-height: 1.25;
+  background: lightgray;
+  padding: 5px;
+}
+
+.bio-photo {
+  float: left;
+  width: 250px;
+  height: auto;
+  margin: 20px;
+}
+
+#selected_works {
+  line-height: 1.5;
+  padding: 10px;
+  text-align: left;
+}
+
+#selected_works tr td {
+  padding-right: 20px;
+}
+
